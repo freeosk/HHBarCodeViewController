@@ -42,7 +42,7 @@
     self.label.backgroundColor = [UIColor colorWithWhite:0.15 alpha:0.65];
     self.label.textColor = [UIColor whiteColor];
     self.label.textAlignment = NSTextAlignmentCenter;
-    self.label.text = @"(none)";
+    self.label.text = @"";
     [self.view addSubview:self.label];
     
     self.cancelButton = [[UIButton alloc] init];
@@ -181,7 +181,7 @@
             break;
         }
         else {
-            self.label.text = @"(none)";
+            self.label.text = @"";
         }
     }
 
